@@ -1,0 +1,12 @@
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - camel_case_types
+    - camel_case_extensions
+    - library_names
+    - library_prefixes
+    - type_init_formals
